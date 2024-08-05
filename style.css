@@ -13,15 +13,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+main {
+    
+    margin: auto;
+    background-color: white;
+}
 
 #principal {
     font-family: "Cabin Sketch";
+    text-align: center;
 }
 
 .titulo2 { 
     font-family: 'dimitri';
+    
 }
 
 iframe {
     border-radius: 20px;
+    margin: 50px
 }
