@@ -20,7 +20,7 @@
     --cor2: rgb(23, 96, 153);
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -35,39 +35,40 @@ body {
     background-size: cover;
     background-attachment: fixed;
 
-    
+
 }
+
 header {
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-header > p {
-    
+header>p {
+
     padding-top: 10px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.2em;
     text-align: center;
     color: aliceblue;
-    
+
 }
 
 #principal {
     font-family: "gamer";
     color: var(--cor1);
     text-align: center;
-    
+
 }
 
-.titulo2 { 
+.titulo2 {
     font-family: 'gamer2';
     color: white;
     font-weight: 100;
     text-align: center;
     padding-bottom: 10px;
-    
-    
+
+
 }
 
 .subtitulo2 {
@@ -77,7 +78,7 @@ header > p {
 
 .subtitulo3 {
     padding-left: 15px;
-    font-family: 'gamer2' ,monospace;
+    font-family: 'gamer2', monospace;
     font-weight: 100;
     color: rgb(145, 196, 145);
 }
@@ -88,7 +89,7 @@ nav {
     background-color: black;
 }
 
-nav > a {
+nav>a {
     color: white;
     padding: 5px 0px 5px 30px;
     border-radius: 5px;
@@ -97,7 +98,7 @@ nav > a {
     transition-duration: .5s;
 }
 
-nav > a:hover {
+nav>a:hover {
     background-color: var(--cor2);
     color: rgb(145, 196, 145);
 }
@@ -112,7 +113,7 @@ main {
     max-width: 800px;
     margin: auto;
     background-color: black;
-    
+
 }
 
 article {
@@ -140,14 +141,10 @@ div.video {
 
 }
 
-div.video > iframe {
+div.video>iframe {
     position: absolute;
     top: 2%;
     left: 5%;
     width: 90%;
     height: 90%;
 }
-
-
-
-
