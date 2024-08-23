@@ -84,33 +84,32 @@ header>p {
     color: rgb(145, 196, 145);
 }
 
-nav {
-    padding-top: 5px;
-    padding-bottom: 20px;
+
+div.nav {
+    padding-left: 34%;
+    
     background-color: black;
-    display: flex;
-    flex-direction: row;
+    padding-bottom: 20px;
+
+
     
 }
 
-nav>a {
 
-    color: white;
-    padding: 5px 0px 5px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: .5s;
-    
+
+nav > a {
+    color: var(--cor1);
+    font-family: "gamer2";
+    font-size: 1.5em;
+    padding: 5px;
+
+
 }
 
-nav>a:hover {
-    background-color: var(--cor2);
+a:hover {
     color: rgb(145, 196, 145);
+    transition-duration: .5s;
 }
-
-
-
 
 
 
