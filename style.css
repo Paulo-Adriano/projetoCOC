@@ -136,7 +136,10 @@ section p {
         margin: 20px 0;
         
     }
-
+    
+    picture img[src="imagens/xerxes-grande1.jpg"] {
+        width: 320px;
+    }
 
 
 
