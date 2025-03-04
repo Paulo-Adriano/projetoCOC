@@ -51,6 +51,25 @@
     
 }
 
+.header-container .menu span:before,
+.header-container .menu span:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    background-color: #fff;
+
+    position: absolute;
+}
+
+.header-container .menu span:before {
+    top: -10px;
+}
+
+.header-container .menu span:after {
+    bottom: -10px;
+}
+
 @media (max-width: 601px){
     .header-container nav{
         display: none;
