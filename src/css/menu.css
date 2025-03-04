@@ -23,5 +23,13 @@
 }
 
 .header-container .menu-list li {
-    margin: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.header-container .menu-list li:hover{
+    background-color: antiquewhite;
 }
