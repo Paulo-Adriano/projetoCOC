@@ -58,6 +58,7 @@
     background-color: #fff;
 
     position: absolute;
+    transition: 0.3s ease-in-out;
 }
 
 .header-container .menu span:before {
@@ -66,6 +67,20 @@
 
 .header-container .menu span:after {
     bottom: -10px;
+}
+
+.header-container input:checked ~ label span {
+    transform: rotate(45deg);
+}
+
+.header-container input:checked ~ label span:before{
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.header-container input:checked ~ label span:after{
+    transform: rotate(90deg);
+    bottom: 0;
 }
 
 @media (max-width: 601px){
@@ -77,5 +92,7 @@
     .header-container .menu .hamburquer{
         display: block;
     }
+
+    
     
 }
