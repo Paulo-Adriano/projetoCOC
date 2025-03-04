@@ -33,3 +33,7 @@
 .header-container .menu-list li:hover{
     background-color: antiquewhite;
 }
+
+.header-container input {
+    display: none;
+}
