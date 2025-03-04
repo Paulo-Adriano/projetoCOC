@@ -43,8 +43,6 @@
     height: 2px;
     background-color: #FFF;
 
-    display: block;
-
     position: relative;
     
     margin: 10px;
@@ -76,6 +74,8 @@
     }
 
     
-
+    .header-container .menu .hamburquer{
+        display: block;
+    }
     
 }
