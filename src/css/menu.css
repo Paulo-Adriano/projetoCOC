@@ -37,3 +37,26 @@
 .header-container input {
     display: none;
 }
+
+.header-container .menu span {
+    width: 30px;
+    height: 2px;
+    background-color: #FFF;
+
+    display: block;
+
+    position: relative;
+    
+    margin: 10px;
+    
+}
+
+@media (max-width: 601px){
+    .header-container nav{
+        display: none;
+    }
+
+    
+
+    
+}
