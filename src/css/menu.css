@@ -8,7 +8,10 @@
 
 .header-container .logo{
     display: flex;
+}
 
+.header-container .logo img {
+    border-radius: 50%;
 }
 
 .header-container .menu-list {
